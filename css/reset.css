@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* reset */
+* { padding:0; margin:0; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, enbed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {margin:0; padding:0; border:0; outline:0; font-style:inherit; font-weight:inherit; }
+b { font-weight: 700; }
+
+div { box-sizing: border-box; } /* 210414 S add */
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {display:block}
+
+html {-webkit-text-size-adjust:none; -moz-text-size-adjust:none; -ms-text-size-adjust:none; text-size-adjust:none}
+body {line-height:1;}
+
+a {text-decoration:none; color:inherit}
+/*a:link {}
+a:visited {}
+a:hover, a:active { }*/
+
+img {max-width:100%; border:0}
+
+ul, ol, li {list-style:none}
+ul:after{content:""; display:block; clear:both}
+
+table {border-collapse:collapse; border-spacing:0}
+
+caption, legend { position: absolute; top: -9999px; left: -9999px; font-size: 0px; line-height: 0 }
+
+input, select, textarea, button { vertical-align:middle; font-family:inherit; font-size:inherit; }
+textarea { resize: none; outline: none; }
+select, input { outline:none; cursor:auto }
+button { outline:none; cursor:pointer; background-color: transparent; border:none; }
+input[type="text"], input[type="password"], input[type="tel"], input[type="email"] {padding-left:3px; box-sizing:border-box}
+input[type="radio"], input[type="checkbox"] { cursor: pointer; } /* 210414 S add */
+label { cursor: pointer; } /* 210414 S add */
+
+.clear:after {content:""; display:block; clear:both}
+.hidden {overflow:hidden; position:absolute; width:1px; height:1px; margin:0; padding:0; border:none; clip:rect(1px, 1px, 1px, 1px)}
+.sound-only {overflow:hidden;position:absolute;width:0;height:0;padding:0;margin:0;font-size:0;line-height:0;text-indent:-9999em;outline:none;z-index:-1}
+.blind {display:none;overflow:hidden;position:absolute;width:0;height:0;padding:0;margin:0;font-size:0;line-height:0;text-indent:-9999em;visibility:hidden;outline:none;z-index:-1}
+.guide { margin: 0 auto; position: relative; }
+.guide::after { content: ""; display: block; clear: both; float: none; }
+
+iframe { transition: height ease 0.5s; }
+
+/*드래그
+::selection{background:; color:#fff;}
+::-moz-selection{background:; color:#fff;} */
+
+/* 마진 -------------------------------------------------------------------*/
+.top5{margin-top:5px;}.top10{margin-top:10px;}.top15{margin-top:15px;}.top20{margin-top:20px;}.top25{margin-top:25px;}.top30{margin-top:30px;}.top35{margin-top:35px;}.top40{margin-top:40px;}.top50{margin-top:50px;}.top60{margin-top:60px;}.top70{margin-top:70px;}.top80{margin-top:80px;}.top90{margin-top:90px;}.bottom5{margin-bottom:5px;}.bottom10{margin-bottom:10px;}.bottom15{margin-bottom:15px;}.bottom20{margin-bottom:20px;}.bottom25{margin-bottom:25px;}.bottom30{margin-bottom:30px;}.bottom35{margin-bottom:35px;}.bottom40{margin-bottom:40px;}.bottom50{margin-bottom:50px;}.bottom60{margin-bottom:60px;}.bottom70{margin-bottom:70px;}.bottom80{margin-bottom:80px;}.bottom90{margin-bottom:90px;}.left5{margin-left:5px;}.left10{margin-left:10px;}.left15{margin-left:15px;}.left20{margin-left:20px;}.left25{margin-left:25px;}.left30{margin-left:30px;}.left35{margin-left:35px;}.left40{margin-left:40px;}.left50{margin-left:50px;}.left60{margin-left:60px;}.left70{margin-left:70px;}.left80{margin-left:80px;}.left90{margin-left:90px;}.right5{margin-right:5px;}.right10{margin-right:10px;}.right15{margin-right:15px;}.right20{margin-right:20px;}.right25{margin-right:25px;}.right30{margin-right:30px;}.right40{margin-right:40px;}.right50{margin-right:50px;}.right60{margin-right:60px;}.right70{margin-right:70px;}.right80{margin-right:80px;}.right90{margin-right:90px;}
